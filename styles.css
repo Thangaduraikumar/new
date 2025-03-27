@@ -1,0 +1,205 @@
+/* Styling for the banner section */
+
+#banner {
+  width: 100%;  
+  height: 500px; 
+  background-image: url('images/banner-darker.webp'); 
+  background-size: cover; 
+  background-position: center;
+}
+
+/* Styling for the banner heading */
+#banner h1 {
+  font-family: 'Anton', sans-serif; 
+  font-size: 60px;
+  line-height: 65px; 
+  color: #e7dfbc;
+}
+
+/* Styling for the banner button */
+#banner button {
+  font-family: 'Anton', sans-serif; 
+  color: #414042; 
+  background-color: #e7dfbc; 
+  font-size: 22px; 
+  padding: 10px 80px; 
+}
+
+/* Styling for an image with hover effect */
+#img-hover {
+  width: 90%; 
+}
+
+#img-hover:hover {
+  transition: transform 0.5s ease-in-out; 
+  transform: scale(1.1); 
+  border: 4px solid #e7dfbc; 
+  border-radius: 4px; 
+}
+
+/* Styling for the 'Beans' button */
+#beans-btn {
+  font-family: 'Anton', sans-serif; 
+  color: #e7dfbc; 
+  background-color: #414042; 
+  font-size: 18px; 
+  padding: 10px 80px;
+}
+
+
+
+/* Hover effect for the 'Beans' button */
+#beans-btn:hover {
+  border-bottom: 4px solid #e7dfbc; 
+}
+
+/* Stylefor the 'App' button */
+#app-btn {
+  font-family: 'Anton', sans-serif; 
+  color:#414042; 
+  background-color:  #e7dfbc ; 
+  font-size: 18px; 
+  padding: 10px 80px;
+}
+
+/* Hover effect for the 'App' button */
+#app-btn:hover {
+  border-bottom: 4px solid  #414042 ; 
+  border-radius: 4px;
+}
+
+#coffee-cup:hover{
+  transition: transform 0.5s ease-in-out; 
+  transform: scale(1.1);
+}
+/* Styling Cards */
+#card-title{
+  font-family: 'Anton', sans-serif; 
+  color: #414042;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#cards-menu-name{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #414042;
+}
+/* Cards Button1 */
+#cards-btn1{
+  font-family: 'Anton', sans-serif; 
+  color: #e7dfbc; 
+  background-color: #414042; 
+  font-size: 18px; 
+  padding: 10px 50px;
+  border: none;
+}
+/* Cards Button 2 */
+#cards-btn2{
+  font-family: 'Anton', sans-serif; 
+  color: #414042; 
+  background-color:white ; 
+  font-size: 18px; 
+  padding: 10px 55px;
+  border: 1px solid #414042;
+}
+/* Cards Image Transition */
+#cards-img{
+  transition: transform 0.3s ease-in-out;
+}
+#cards-img:hover{
+  transform: rotate(10deg);
+}
+#coffee{
+  width: 300px;
+  height: 300px;
+}
+#decsription{
+  font-family: 'Anton', sans-serif; 
+  color: #414042;
+  font-size: 30px;
+  line-height: 3.5rem;
+}
+/* Footer */
+#footer-heading{
+  font-family: 'Anton', sans-serif; 
+  color: #e7dfbc;
+  font-size: 22px;
+}
+#footer-links{
+  color: #e7dfbc;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+#footer-links:hover{
+  color: #FDFBEE;
+  cursor: pointer;
+}
+#footer-links-1{
+  color: #e7dfbc;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+/* Copyright */
+#copyright{
+  font-family: 'Anton', sans-serif; 
+  color: #414042;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+#copyright-txt{
+  color: #414042;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+input[type="email"] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding: 9px 100px 9px 10px;
+  border: 2px solid #414042;
+  border-right: none;
+  border-radius: 5px 0 0 5px; /* Only round left corners */
+  outline: none; /* Optional: removes default focus outline */
+}
+
+#mail-btn {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  background-color: #e7dfbc;
+  border: 2px solid #414042;
+  border-left: none;
+  border-radius: 0 5px 5px 0; /* Only round right corners */
+  padding: 9px 15px;
+  cursor: pointer;
+}
+#store-img{
+  cursor: pointer;
+}
+
+/* Cart Page */
+
+#cart-title{
+  font-family: 'Anton', sans-serif; 
+  color: #414042;
+  letter-spacing: 2px;
+}
+#cart-price{
+  font-family: 'Anton', sans-serif; 
+  color: #414042;
+  font-size: 20px;
+}
+
+#cart-price-btn{
+  background-color: #efefef; 
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+#list{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #414042;
+}
+
